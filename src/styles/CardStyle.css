@@ -1,0 +1,74 @@
+.card {
+  border-bottom: 1px solid #F5F5F5;
+
+  width: 1000px;
+  margin-left: 70px;
+  padding: 30px;
+  display: flex;
+}
+
+.card--photo {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.card--right--section {
+  padding: 30px;
+}
+
+.card--flex {
+  display: flex;
+  align-items: center;
+}
+
+.card--location--icon {
+  width: 10px;
+  margin-right: 2px;
+}
+
+.card--location {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.17em;
+}
+
+.card--map_link {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration-line: underline;
+
+  margin-left: 10px;
+
+  color: #918E9B;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.card--start {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 40px;
+
+  display: inline-block;
+}
+
+.card--end {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 40px;
+
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.card--description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  width: 500px;
+}
